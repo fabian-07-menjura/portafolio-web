@@ -1,0 +1,113 @@
+.skills__container__cards {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  row-gap: 2rem;
+  padding-top: 1rem;
+  width: auto;
+  margin-top: -10px;
+}
+
+.skills__content {
+  padding: 15px;
+  gap: 30px;
+  margin-bottom: 100px;
+  width: 45%;
+  background: white;
+  border-radius: 1.25rem;
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
+    0px 6px 0px 4px rgba(0, 0, 0, 0.1),
+    -32px -3px 39px 30px rgba(38, 166, 153, 0);
+}
+
+.skills__title {
+  margin: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(34, 145, 133);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__group {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills__data {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  width: 130px;
+  column-gap: 0.5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.skill__icon {
+  font-size: 1.7rem;
+  width: 30px;
+  color: rgb(34, 145, 133);
+}
+
+.skills__name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.skillsTxt2 {
+  margin-bottom: 1.5rem;
+}
+
+.skill__phrase,
+.work__phrase {
+  height: auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.skill__phrase_bgr,
+.work__phrase_bgr {
+  opacity: 0.3;
+  background-size: cover;
+  text-align: center;
+  width: auto;
+  height: 100%;
+  justify-self: center;
+  transform: rotate(180deg);
+}
+
+.titulo__seccion {
+  color: rgb(34, 145, 133);
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+hr {
+  background: rgb(34, 145, 133);
+  height: 2px;
+  width: 70px;
+  margin-bottom: 30px;
+}
+
+.overlay {
+  width: inherit;
+  height: inherit;
+  margin-left: 30vw;
+  padding-bottom: 0;
+}
+.letters {
+  width: 150px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}

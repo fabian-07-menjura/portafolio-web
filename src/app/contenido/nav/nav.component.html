@@ -1,0 +1,47 @@
+<div (click)="cambiarEstado()" class="imagen__menu">
+  <img class="img__menu" src="../../../assets/hamburguesa.png" alt="" />
+</div>
+<ul [ngClass]="{ nav: estado1, ocultar__menu: estado2 }">
+  <li
+    (click)="redirecInicio($event)"
+    [ngClass]="{ enfocado: activoInicio == true }"
+    class="nav__items"
+  >
+    Inicio
+  </li>
+  <li
+    (click)="redirecAbout($event)"
+    [ngClass]="{ enfocado: activoAbout == true }"
+    class="nav__items"
+  >
+    Sobre mí
+  </li>
+  <li
+    (click)="redirecFuncion($event)"
+    [ngClass]="{ enfocado: activoFuncion == true }"
+    class="nav__items"
+  >
+    Funcion
+  </li>
+  <li
+    (click)="redirecHabilidades($event)"
+    [ngClass]="{ enfocado: activoHabilidades == true }"
+    class="nav__items"
+  >
+    Habilidades
+  </li>
+  <li
+    (click)="redirecProyectos($event)"
+    [ngClass]="{ enfocado: activoProyectos == true }"
+    class="nav__items"
+  >
+    Experiencia
+  </li>
+  <li
+    (click)="redirecContacto($event)"
+    [ngClass]="{ enfocado: activoCotacto == true }"
+    class="nav__items inicio nav__items--cta"
+  >
+    ¡Contáctame Ahora!
+  </li>
+</ul>

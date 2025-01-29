@@ -1,0 +1,139 @@
+.footer {
+  background: #546160;
+  box-shadow: 0 -1px 12px black;
+}
+.footer__container {
+  padding: 2rem 0 6rem;
+}
+.footer__title,
+.footer__link {
+  color: white;
+}
+.footer__title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+.footer_msg {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  color: white;
+  font-size: 1rem;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+.footer__social-link {
+  color: white;
+  padding: 0.9rem;
+  font-size: 1.7rem;
+  display: inline-flex;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+/*Linkedin*/
+
+.fsl1:hover {
+  color: #2766b2;
+}
+/*GitHub*/
+
+.fsl2:hover {
+  color: rgb(71, 71, 71);
+}
+/*Twitter*/
+
+.fsl3:hover {
+  color: #1c99e6;
+}
+/*Instagram*/
+
+.fsl4:hover {
+  color: #c13584;
+}
+.footer__rights {
+  display: block;
+  text-align: center;
+  font-size: smaller;
+  color: white;
+}
+
+.container__social {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg rgb(215, 211, 211), white);
+}
+
+.wraper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wraper .icon,
+.img {
+  position: relative;
+  background: white;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 15px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wraper a .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: white;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-left: 7px;
+}
+
+.wraper .icon:hover a .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wraper .icon:hover a span,
+.wraper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wraper .linkedin:hover,
+.wraper .linkedin:hover .tooltip,
+.wraper .linkedin:hover .tooltip::before,
+.wraper .linkedin:hover a span img {
+  background: #1877f2;
+  color: #ffffff;
+}
+.wraper .gitHub:hover,
+.wraper .gitHub:hover .tooltip,
+.wraper .gitHub:hover .tooltip::before,
+.wraper .gitHub:hover a span img {
+  background: rgb(34, 33, 33);
+  color: #ffffff;
+}
+.wraper .wtsp:hover,
+.wraper .wtsp:hover .tooltip,
+.wraper .wtsp:hover .tooltip::before,
+.wraper .wtsp:hover a span img {
+  background: rgb(27, 183, 27);
+  color: #ffffff;
+}

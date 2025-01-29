@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 45px 0;
+  max-width: 1200px;
+}
+.subtitle {
+  margin: 5px;
+  color: rgb(34, 145, 133);
+  font-size: 2.5rem;
+  margin-top: 30px;
+  font-weight: bold;
+}
+hr {
+  border-radius: 10px;
+  height: 7px;
+  background: rgb(34, 145, 133);
+  width: 20vw;
+  margin-bottom: 30px;
+}
+
+.presentation {
+  padding-top: 0;
+  text-align: center;
+  float: left;
+}
+
+.presentation__picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.presentation__copy {
+  width: 95%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.presentation__cta {
+  display: inline-block;
+  background: #546160;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 40px;
+}
+.presentation__cta:hover {
+  background-color: rgb(34, 145, 133);
+  color: white;
+  animation: swing 2s ease;
+  animation-iteration-count: 1;
+}
+@keyframes swing {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero__wave {
+  position: relative;
+  bottom: 3rem;
+  left: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.imgSobreMi {
+  width: 10vw;
+  padding-right: 10px;
+}
+
+.overlay {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.letters {
+  width: 100px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}

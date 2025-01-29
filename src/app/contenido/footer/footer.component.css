@@ -1,0 +1,110 @@
+.titulo__seccion {
+  color: rgb(34, 145, 133);
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+hr {
+  background: rgb(34, 145, 133);
+  height: 2px;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.desc__contacto {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.img__contact {
+  width: 30px;
+  height: 30px;
+}
+
+.contact__container {
+  row-gap: 3rem;
+  padding-bottom: 2rem;
+}
+.contact__title {
+  color: rgb(34, 145, 133);
+
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+.contact__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* gap: 50px; */
+  margin-top: 50px;
+}
+/*Cards info*/
+
+.contact__card {
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
+    0px 6px 0px 4px rgba(0, 0, 0, 0.1),
+    -32px -3px 39px 30px rgba(38, 166, 153, 0);
+}
+.contact__card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+.contact__card-title,
+.contact__card-data {
+  font-size: 1.1rem;
+}
+.contact__card-title {
+  font-weight: 700;
+  color: rgb(34, 145, 133);
+}
+.contact__card-data {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.contact__button {
+  color: rgb(65, 64, 64);
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.contact__button:hover {
+  color: rgb(34, 145, 133);
+
+  font-weight: bold;
+}
+.contact__button:hover .contact__button-icon {
+  transform: translateX(0.5rem);
+}
+.contact__button-icon {
+  font-size: 2rem;
+  transition: 0.4s;
+}
+
+.overlay {
+  width: inherit;
+  height: inherit;
+  margin-left: 30vw;
+  padding-bottom: 0;
+}
+.letters {
+  width: 120px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
