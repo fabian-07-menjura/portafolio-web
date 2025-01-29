@@ -34,11 +34,6 @@ export class NavComponent {
     }
   }
 
-  cambiarEstado() {
-    this.estado1 = !this.estado1;
-    this.estado2 = !this.estado2;
-  }
-
   redirecInicio($event: any) {
     $event.preventDefault();
     this.router.navigate(['perfil/all']);
@@ -48,6 +43,8 @@ export class NavComponent {
     this.activoHabilidades = false;
     this.activoProyectos = false;
     this.activoCotacto = false;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
   redirecAbout($event: any) {
     $event.preventDefault();
@@ -58,6 +55,8 @@ export class NavComponent {
     this.activoHabilidades = false;
     this.activoProyectos = false;
     this.activoCotacto = false;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
   redirecFuncion($event: any) {
     $event.preventDefault();
@@ -68,6 +67,8 @@ export class NavComponent {
     this.activoHabilidades = false;
     this.activoProyectos = false;
     this.activoCotacto = false;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
   redirecHabilidades($event: any) {
     $event.preventDefault();
@@ -78,6 +79,8 @@ export class NavComponent {
     this.activoHabilidades = true;
     this.activoProyectos = false;
     this.activoCotacto = false;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
   redirecProyectos($event: any) {
     $event.preventDefault();
@@ -88,6 +91,8 @@ export class NavComponent {
     this.activoHabilidades = false;
     this.activoProyectos = true;
     this.activoCotacto = false;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
   redirecContacto($event: any) {
     $event.preventDefault();
@@ -98,5 +103,12 @@ export class NavComponent {
     this.activoHabilidades = false;
     this.activoProyectos = false;
     this.activoCotacto = true;
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
+  }
+
+  cambiarEstado() {
+    this.estado1 = !this.estado1;
+    this.estado2 = !this.estado2;
   }
 }
